@@ -1,19 +1,30 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap")
 body * {
     box-sizing: border-box;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
-/*
-Add some style blocks below this line to style the cards.
-Feel free to borrow from Exercise 1.
-*/
+header {
+    padding: 3vh;
+    background: #EEE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    width: 250px;
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
 
 main {
-    display: flex;
+    margin: 3vh;
 }
 
 section {
@@ -21,10 +32,6 @@ section {
     border: solid 1px grey;
     margin: 15px;
     padding-bottom: 15px;
-}
-
-h2 {
-    font-family: "Poppins";
 }
 
 section h2, section p, section button {
@@ -37,20 +44,11 @@ img {
     width: 100%;
 }
 
-iframe {
-    width:100%;
-    min-height: 300px;
-    /* height: auto; */
-}
-/* Tablet Media Query */
+
 @media only screen and (max-width: 1000px) {
-    main {
-        flex-wrap: wrap;
-    }
+    /* Media queries go here */
 }
 
-/* Mobile Phone Media Query */
 @media only screen and (max-width: 600px) {
-
-    
+    /* Media queries go here */
 }
